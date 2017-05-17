@@ -3,13 +3,27 @@ html,body{
     height: 100%;
 }
 body *{
-    box-sizing: border-box;
+    box-sizing:border-box;
     -webkit-transition: all 1.5s; /* Safari */
             transition: all 1.5s;
 }
-
+table{
+    border-collapse:collapse;
+    border-spacing: 0;
+}
+td{
+    width: calc(100% / 6);
+    height: calc(100% / 6);
+    padding: 0;
+}
+table, tr{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
 .column{
     height:  100%;
+    padding: 2%;
 }
 .col-60{
     width: 60%;
@@ -49,6 +63,29 @@ body *{
 }
 .col-00{
     width: 0%;
+}
+
+/*-------------------------------*/
+.col-w-13{
+    width: calc(100% / 13);
+}
+.col-w-12{
+    width: calc(100% / 12);
+}
+.col-h-12{
+    height: calc(100% / 12);
+}
+.col-w-6{
+    width: calc(100% / 6)
+}
+.col-h-6{
+    height: calc(100% / 6);
+}
+.col-w-3{
+    width: calc(100% / 3);
+}
+.col-h-3{
+    height: calc(100% / 3);
 }
 
 @font-face {

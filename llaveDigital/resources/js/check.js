@@ -16,9 +16,10 @@ window.addEventListener('resize', function() {
         /*----------------------navigator not suported--------------------------*/
 /*----------------------------------------------------------------------*/
 function navigatorNotSupported(){
-    document.getElementById('content').setAttribute('style','display:none;');
+    document.getElementById('mainContent').setAttribute('style','display:none;');
     document.getElementById('sorryMsg').setAttribute('style','display:block;');
 }
+
 var isChrome = !!window.chrome && !!window.chrome.webstore;
 var isFirefox = typeof InstallTrigger !== 'undefined';
 var isEdge = !isIE && !!window.StyleMedia;

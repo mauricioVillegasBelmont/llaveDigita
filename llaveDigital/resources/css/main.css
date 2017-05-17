@@ -32,12 +32,12 @@
     display: block;
     width: calc(100% - 100px);
     height: auto;
-    margin: 20px 50px;
+    margin: 0 50px;
     /*background: url(../img/logoA.png) bottom/contain no-repeat;*/
 }
 .active #logo{
     width: 70%;
-    margin: 20px auto;
+    margin: 20px auto 100px auto;
     /*background:url(../img/logoB.png) center/contain no-repeat;*/
 }
 .active .medianil{
@@ -123,7 +123,7 @@
     margin: 5%;
 }
 .estela{
-    background-color: #25b0e6;
+    background-color: rgba(37, 176, 230,1);
 }
 #nav .estela .icon{
     background:  url(../img/estelaB.png) center center/contain no-repeat;
@@ -289,3 +289,44 @@
 .back {
     background: #dfdfdf url(../img/back.png) center center/contain no-repeat; 
 }
+
+/*----------------------------------------------*/
+
+/*
+.estela .estela{
+    background: rgba(37, 176, 230,0.2);
+}
+.pleno_ .pleno_{
+    background: #5c6eb2 url(../img/plenoA.png) center center/contain no-repeat;    
+}
+.eAtack .eAtack{
+    background: #8a4f9e url(../img/eAtackA.png) center center/contain no-repeat;    
+}
+.libroM .libroM{
+    background: #ccc url(../img/libroMA.png) center center/contain no-repeat;    
+}
+.rCtoon .rCtoon{
+    background: #8fc73d url(../img/rCartoonsA.png) center center/contain no-repeat;    
+}
+.bEnRed .bEnRed{
+    background: #f26b61 url(../img/bEnRedA.png) center center/contain no-repeat;    
+}
+.lEnRed .lEnRed{
+    background: #f26522 url(../img/lEnRedA.png) center center/contain no-repeat;    
+}
+.teachN .teachN{
+    background: #e33142 url(../img/teachNA.png) center center/contain no-repeat;    
+}
+.libroC .libroC {
+    background: #eaeded url(../img/libroCA.png) center center/contain no-repeat;    
+}
+.digiBo .digiBo{
+    background: #e8e512 url(../img/digiBoA.png) center center/contain no-repeat;    
+}
+.inever .inever{
+    background: #ffffff url(../img/inveryA.png) center center/contain no-repeat;    
+}
+.libWeb .libWeb{
+    background: #cccccc url(../img/libWebA.png) center center/contain no-repeat;    
+}
+*/

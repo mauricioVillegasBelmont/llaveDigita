@@ -7,7 +7,6 @@ function removeContent() {
   elem1.parentNode.removeChild(elem1);
   return false;
 }
-
 function appendSections(){
     var b = document.createElement('section');
     b.id='benefit';

@@ -6,6 +6,7 @@
     overflow: hidden;
 }
 .main{
+    position: relative;
     background-color: #fff;
     height: 100%;
     z-index: 1;
@@ -48,11 +49,7 @@
 }
 .photo{
     position: absolute;
-    bottom: 0;
-    right: 0;
-    
-    
-    background: red;
+    pointer-events: none;
     z-index: 1;
 }
 #nav{
@@ -122,6 +119,26 @@
     height: 90%;
     margin: 5%;
 }
+#menuImg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 100px);
+    height: auto;
+    margin: 0 50px;
+}
+
+.active #menuImg{
+    opacity: 0;
+    pointer-events: none;
+}
+#rightColumn{
+    overflow: visible;
+}
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
 .estela{
     background-color: rgba(37, 176, 230,1);
 }
@@ -245,40 +262,88 @@
 
 
 .estela .photo{
-    background: url(../img/estelaB.png) center center/contain no-repeat;
+    bottom: 0;
+    right: 0;
+    width: 120%;
+    height: 70%;
+    background: url(../img/estelaC.png) right bottom/contain no-repeat;
 }
 .pleno_ .photo{
-    background: url(../img/plenoB.png) center center/contain no-repeat;    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    background: url(../img/plenoC.png) right bottom/contain no-repeat;    
 }
 .eAtack .photo{
-    background: url(../img/eAtackB.png) center center/contain no-repeat;    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 70%;
+    background: url(../img/eAtackC.png) right bottom/contain no-repeat;    
 }
 .libroM .photo{
-    background: url(../img/libroMB.png) center center/contain no-repeat;    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 70%;
+    background: url(../img/libroMC.png) center center/contain no-repeat;    
 }
 .rCtoon .photo{
-    background: url(../img/rCartoonsB.png) center center/contain no-repeat;    
+    bottom: 0;
+    right: 0;
+    width: 120%;
+    height: 70%;
+    background: url(../img/rCartoonsC.png) right bottom/contain no-repeat;    
 }
 .bEnRed .photo{
-    background: url(../img/bEnRedB.png) center center/contain no-repeat;    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 70%;
+    background: url(../img/bEnRedC.png) center bottom/contain no-repeat;    
 }
 .lEnRed .photo{
-    background: url(../img/lEnRedB.png) center center/contain no-repeat;    
+    bottom: 0;
+    right: 0;
+    width: 120%;
+    height: 70%;
+    background: url(../img/lEnRedC.png) right bottom/contain no-repeat;    
 }
 .teachN .photo{
-    background: url(../img/teachNB.png) center center/contain no-repeat;    
+    bottom: 0;
+    right: 0;
+    width: 120%;
+    height: 70%;
+    background: url(../img/teachNC.png) right bottom/contain no-repeat;    
 }
 .libroC .photo{
-    background: url(../img/libroCB.png) center center/contain no-repeat;    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/libroCC.png) right center/contain no-repeat;    
 }
-.digiBo .photo{
-    background: url(../img/digiBoB.png) center center/contain no-repeat;    
-}
-.invery .photo{
-    background: url(../img/inveryB.png) center center/contain no-repeat;    
+/*.digiBo .photo{
+    bottom: 0;
+    right: 0;
+    width: 120%;
+    height: 70%;
+    background: url(../img/digiBoC.png) center center/contain no-repeat;    
+}*/
+.inever .photo{
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 70%;
+    background: url(../img/inveryC.png) right bottom/contain no-repeat;    
 }
 .libWeb .photo{
-    background: url(../img/libWebB.png) center center/contain no-repeat;    
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/libWebC.png) right center/contain no-repeat;    
 }
 
 .non-select {

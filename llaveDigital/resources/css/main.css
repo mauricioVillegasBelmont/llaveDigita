@@ -8,7 +8,6 @@
 .main{
     position: relative;
     background-color: #fff;
-    height: 100%;
     z-index: 1;
     -webkit-box-shadow: -1px 0px 10px 0px rgba(70,70,70,1);
     -moz-   box-shadow: -1px 0px 10px 0px rgba(70,70,70,1);

@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Certificaciones</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link rel="icon" href="resources/icons/SC.png" type="image/png" sizes="16x16 32x32" type="image/png">
+        <link rel="stylesheet" type="text/css" href="resources/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/srMsg.css"> 
+        <link rel="stylesheet" type="text/css" href="resources/css/layout.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/main.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/svgMenu.css">
+	</head>
+	<body on>
+        <div class="mainWrapper ">
+            <div id="activeMenu" class="nav">
+                <img id="sc" src="resources/img/sc.svg">
+                <div class="col-9">
+                    <div class="button rounded">
+                        <div class="icon rounded"></div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="button rounded">
+                        <div class="icon rounded"></div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="button rounded">
+                        <div class="icon rounded"></div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="button rounded">
+                        <div class="icon rounded"></div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="button rounded">
+                        <div class="icon rounded"></div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="button rounded">
+                        <div class="icon rounded"></div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="button rounded">
+                        <div class="icon rounded"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="" class="column rel slector">
+                <nav id="nav">
+                    
+                </nav>
+                <img id="logo" src="resources/img/logo.svg">
+                <div class="indicator"></div>
+            </div>
+            <div id="" class="column rel content">
+                <div class="shadow left"></div>
+                <div class="shadow right"></div>
+                <article class="contenido"></article>
+            </div>
+            <div id="" class="column medianil"></div>
+        </div>
+        <script type="text/javascript" src="resources/js/check.js"></script>
+        <script type="text/javascript" src="resources/js/main.js"></script>
+        <script type="text/javascript" src="resources/js/svg.js"></script>
+	</body>
+</html>

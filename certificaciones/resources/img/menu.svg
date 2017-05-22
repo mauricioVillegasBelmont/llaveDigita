@@ -1,63 +1,10 @@
-<!doctype html>
-
-<html>
-	<head>
-		<title>Certificaciones</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-        <link rel="icon" href="resources/icons/SC.png" type="image/png" sizes="16x16 32x32" type="image/png">
-        <link rel="stylesheet" type="text/css" href="resources/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/srMsg.css"> 
-        <link rel="stylesheet" type="text/css" href="resources/css/layout.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/main.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/svgMenu.css">
-	</head>
-	<body on>
-        <div class="mainWrapper active">
-            <div id="activeMenu" class="nav">
-                <img id="sc" src="resources/img/sc.svg">
-                <div class="col-9">
-                    <div class="button rounded">
-                        <div class="icon rounded"></div>
-                    </div>
-                </div>
-                <div class="col-9">
-                    <div class="button rounded">
-                        <div class="icon rounded"></div>
-                    </div>
-                </div>
-                <div class="col-9">
-                    <div class="button rounded">
-                        <div class="icon rounded"></div>
-                    </div>
-                </div>
-                <div class="col-9">
-                    <div class="button rounded">
-                        <div class="icon rounded"></div>
-                    </div>
-                </div>
-                <div class="col-9">
-                    <div class="button rounded">
-                        <div class="icon rounded"></div>
-                    </div>
-                </div>
-                <div class="col-9">
-                    <div class="button rounded">
-                        <div class="icon rounded"></div>
-                    </div>
-                </div>
-                <div class="col-9">
-                    <div class="button rounded">
-                        <div class="icon rounded"></div>
-                    </div>
-                </div>
-            </div>
-            <div id="" class="column rel slector">
-                <nav id="nav">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="svgMenu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 725 442" enable-background="new 0 0 725 442" xml:space="preserve">
 
-    <g id='google' class='svgButton' >
+    <g id='google' class='svgButton'>
         <path fill="#29B59E" d="M691.4,305.5c-30-29.8-78.5-29.7-108.3,0.3c-9.8,9.9-16.4,21.6-19.7,34.2c-5.9,13.9-20.4,17-26.5,17h-3.4
             c-24.9,0-44.5-16.2-50-30.2c2.2,8.3,3.6,16.8,4.2,25.7c2.5,1.4,4.2,4.2,4.2,7.3c0,4.6-3.7,8.4-8.4,8.4c-1.7,0-3.3-0.5-4.7-1.4
             c-0.5,8.4-1.8,16.7-3.9,24.2h9.1h0h0.4c6.5-13,25.4-28,49.1-28h3.4c6.4,0,22,3.6,27.3,19.1c0,0.1,0.3,0.3,0.3,0.5
@@ -66,7 +13,7 @@
             c0-16.2,6.5-30.8,17-41.4c10.6-10.6,25.2-17.2,41.4-17.3c16.2,0,30.8,6.5,41.5,17c10.6,10.6,17.2,25.1,17.3,41.3
             C695.8,375.7,689.3,390.3,678.7,400.9z"/>
 
-            <image overflow="visible" width="448" height="448" xlink:href="resources/img/A47CA8F4.png"  transform="matrix(0.1729 0 0 0.1729 598.4829 321.0799)">
+            <image overflow="visible" width="448" height="448" xlink:href="A47CA8F4.png"  transform="matrix(0.1729 0 0 0.1729 598.4829 321.0799)">
         </image>
     </g>
     <g id='unesco' class='svgButton'>
@@ -226,7 +173,7 @@
             c-0.3,2.7-2.3,4.8-4.9,5.2c-0.3,0-0.6,0.1-0.9,0.1c-1.4,0-2.7-0.5-3.7-1.3c-0.1-0.1-0.3-0.2-0.4-0.4c-1.1-1.1-1.7-2.5-1.7-4.2v0v0
             c0-3.3,2.6-5.9,5.9-5.9c0.3,0,0.6,0,0.9,0.1C239.8,355.2,242,357.6,242,360.5L242,360.5z"/>
 
-            <image overflow="visible" width="590" height="286" xlink:href="resources/img/A47CA8F4.jpg"  transform="matrix(0.173 0 0 0.1728 31.4944 335.0362)">
+            <image overflow="visible" width="590" height="286" xlink:href="A47CA8F4.jpg"  transform="matrix(0.173 0 0 0.1728 31.4944 335.0362)">
         </image>
     </g>
     <g id='decoration'>
@@ -303,19 +250,3 @@
     <path id='click' fill="#FCC436" d="M395.5,360.5c0,19.7-16,35.7-35.7,35.7c-19.7,0-35.7-16-35.7-35.7c0-19.7,16-35.7,35.7-35.7
         C379.5,324.8,395.5,340.8,395.5,360.5"/>
 </svg>
-                </nav>
-                <img id="logo" src="resources/img/logo.svg">
-                <div class="indicator"></div>
-            </div>
-            <div id="" class="column rel content">
-                <div class="shadow left"></div>
-                <div class="shadow right"></div>
-                <article class="contenido"></article>
-            </div>
-            <div id="" class="column medianil"></div>
-        </div>
-        <script type="text/javascript" src="resources/js/check.js"></script>
-        <script type="text/javascript" src="resources/js/main.js"></script>
-        <script type="text/javascript" src="resources/js/svg.js"></script>
-	</body>
-</html>
